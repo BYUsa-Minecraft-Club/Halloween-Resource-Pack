@@ -1,0 +1,12 @@
+{
+	"advancements.adventure.throw_trident.description": "Throw a Pitchfork at something.\nNote: Throwing away your only weapon is not a good idea.",
+  	"advancements.adventure.throw_trident.title": "A Throwaway Joke",
+  	"entity.minecraft.trident": "Pitchfork",
+  	"item.minecraft.trident": "Pitchfork",
+  	"subtitles.item.trident.hit": "Pitchfork stabs",
+  	"subtitles.item.trident.hit_ground": "Pitchfork vibrates",
+  	"subtitles.item.trident.return": "Pitchfork returns",
+  	"subtitles.item.trident.riptide": "Pitchfork zooms",
+  	"subtitles.item.trident.throw": "Pitchfork clangs",
+  	"subtitles.item.trident.thunder": "Pitchfork thunder cracks"
+}

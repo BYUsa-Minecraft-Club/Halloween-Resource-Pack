@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/carved_pumpkin",
+		"1": "block/pumpkin_side",
+		"2": "block/pumpkin_top",
+		"particle": "block/carved_pumpkin"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"custom_model_data": 10231}, "model": "byu_hw:item/witch_hat"},
+		{"predicate": {"custom_model_data": 10232}, "model": "byu_hw:item/goblin_mask"},
+		{"predicate": {"custom_model_data": 10233}, "model": "byu_hw:item/wolf_mask"},
+		{"predicate": {"custom_model_data": 10234}, "model": "byu_hw:item/twoface_mask"},
+		{"predicate": {"custom_model_data": 10235}, "model": "byu_hw:item/devil_mask"},
+		{"predicate": {"custom_model_data": 10236}, "model": "byu_hw:item/swamp_mask"},
+		{"predicate": {"custom_model_data": 10237}, "model": "byu_hw:item/grave_suit"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

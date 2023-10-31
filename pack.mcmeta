@@ -1,0 +1,10 @@
+{
+	"pack": {
+	"description": "Halloween Cosmetics and Textures for the Server",
+	"pack_format": 18,
+    "supported_formats": [
+    	"18",
+      	"15"
+    	]
+	}
+}
